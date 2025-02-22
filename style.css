@@ -22,12 +22,12 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.header__general-buttons .general-buttons__button {
+.header__general-buttons.general-buttons__button {
     font: 400 14px/16.41px "Roboto" ;
     text-decoration: none;
 }
 
-.header__general-buttons .general-buttons__active-button {
+.header__general-buttons.general-buttons__active-button {
     font: 700 14px/16.41px "Roboto" ;
     text-decoration: none;
 }
@@ -39,4 +39,25 @@
     padding: 15px 37px;
     border-radius: 5px;
     background-color: rgba(246, 118, 44, 1);
+}
+
+.main__manifest.manifest {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.manifest__main-manifest.main__manifest {
+    width: 555px;
+    position: static;
+}
+
+.manifest__background-image {
+    width: 1626px;
+    height: 1019px;
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+    left: 56px;
+    top: -91px;
 }
