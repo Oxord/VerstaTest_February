@@ -2,8 +2,41 @@
     margin: 0;
     padding: 0;
     background-color: rgba(28, 28, 28, 1);
+    margin-inline: auto;
 }
 
 .header {
+    display: flex;
+    width: 1169px;
+    align-items: center;
+}
 
+.header__logo {
+    height: 100px;
+    width: 100px;
+}
+
+.header__general-buttons {
+    display: flex;
+    gap: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header__general-buttons .general-buttons__button {
+    font: 400 14px/16.41px "Roboto" ;
+    text-decoration: none;
+}
+
+.header__general-buttons .general-buttons__active-button {
+    font: 700 14px/16.41px "Roboto" ;
+    text-decoration: none;
+}
+
+.header__main-button {
+    font: 500 16px/18.75px "Roboto";
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 37px;
+    border-radius: 5px;
+    background-color: rgba(246, 118, 44, 1);
 }
